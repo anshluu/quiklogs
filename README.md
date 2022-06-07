@@ -1,3 +1,3 @@
-# © 2022 UtilMonkey NPM Package. All Rights Reserved.
+# © 2022 QuikLogs NPM Package
  
  Helpful contributions are appreciated!
