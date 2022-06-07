@@ -1,0 +1,11 @@
+{
+  "name": "quiklogs",
+  "version": "2.0.0",
+  "description": "log clean, colored, and simple messages to your apps console.",
+  "main": "index.js",
+  "keywords": [
+"logging", "logs", "console", "npm logs", "clean", "logs","simple", "colorful"
+  ],
+  "author": "cyberdev_",
+  "license": "non-redistributable"
+}
