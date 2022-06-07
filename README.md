@@ -25,6 +25,6 @@ logger.info('Heres some info!')
 logger.logtime('Log events here!')
 
 // Dot Loading Animation
-loader.load('Dot Loading Animation...',  '3000') // the 10000 is the time in milliseconds you want it to last for
+loader.load('Add text for the dotload here',  '10000') // the 10000 is the time in milliseconds you want it to last for
 ```
 # Docs
