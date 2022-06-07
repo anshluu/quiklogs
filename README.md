@@ -22,7 +22,7 @@ logger.error('Uh oh! heres an error!')
 logger.success('Everything is all good!')
 logger.warning('Warning! something might happen...')
 logger.info('Heres some info!')
-logger.logtime('Heres some info!')
+logger.logtime('Log events here!')
 
 // Dot Loading Animation
 loader.load('Dot Loading Animation...',  '3000') // the 10000 is the time in milliseconds you want it to last for
