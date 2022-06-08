@@ -38,7 +38,6 @@ To use the loading module, use
 const loader =  require("quiklogs/load");
 `
 **Section 2: Functions**
-<u>2a: Log Module</u>
 There are different sub functions based on what you want to log to the console. If we define the module as `const log = require(...)` and do `const logger = new log('testing-script')` than we can use the following sub functions:
 | Sub Function  | What it does |
 | ------------- | ------------- |
