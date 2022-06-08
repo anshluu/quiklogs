@@ -22,9 +22,33 @@ logger.error('Uh oh! heres an error!')
 logger.success('Everything is all good!')
 logger.warning('Warning! something might happen...')
 logger.info('Heres some info!')
-logger.logtime('Log events here!')
+logger.logtime('Heres some info!')
 
 // Dot Loading Animation
-loader.load('Add text for the dotload here',  '10000') // the 10000 is the time in milliseconds you want it to last for
+loader.load('Dot Loading Animation...',  '3000') // the 10000 is the time in milliseconds you want it to last for
 ```
 # Docs
+**Section 1: Imports**
+To import the logging module, use
+ `
+const log =  require('quiklogs/logs');
+`
+To use the loading module, use 
+`
+const loader =  require("quiklogs/load");
+`
+**Section 2: Functions**
+<u>2a: Log Module</u>
+There are different sub functions based on what you want to log to the console. If we define the module as `const log = require(...)` and do `const logger = new log('testing-script')` than we can use the following sub functions:
+| Sub Function  | What it does |
+| ------------- | ------------- |
+`logger.error(text)`|Logs a red error badge along with your choice of text to the console.
+`logger.success(text)`|Logs a green success badge along with your choice of text to the console.| 
+`logger.warning(text)`|Logs a yellow warning badge along with your choice of text to the console.
+`logger.info(text)`| Logs a  badge along with your choice of text to the console.
+`logger.logtime(text)`| Logs the current timestamp and text of your choice to the console.
+The arguments here is `text`which can be filled with the text that you want to use with your log.
+Example:
+`logger.success('They payment was successful!')`
+would return
+![](https://gcdnb.pbrd.co/images/vkFegrxu4fL4.png?o=1)
